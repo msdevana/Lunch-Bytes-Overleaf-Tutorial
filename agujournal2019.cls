@@ -426,13 +426,13 @@
   %% \footnotesize 8pt
   %% \scriptsize 7pt font
   %% \tiny 5pt font
-
+ 
 
 \renewcommand\normalsize{%
 \ifdraft
    \@setfontsize\normalsize\@xpt{\draftskip}
 \else
-   \@setfontsize\normalsize\@xpt{12}
+   \@setfontsize\normalsize\@xpt{20}
 \fi
    \abovedisplayskip 10\p@ \@plus2\p@ \@minus5\p@
    \abovedisplayshortskip \z@ \@plus3\p@
@@ -463,7 +463,7 @@
 \ifdraft
    \@setfontsize\footnotesize\@viiipt{\draftskip}%
 \else
-   \@setfontsize\footnotesize\@viiipt{12}%
+   \@setfontsize\footnotesize\@viiipt{18}%
 \fi
    \abovedisplayskip 6\p@ \@plus2\p@ \@minus4\p@
    \abovedisplayshortskip \z@ \@plus\p@
